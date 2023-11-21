@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;500;600;700 & family= Nunito:wght@200;300;400;600 & family= Poppins:wght@100;300;400;500;700 & family= Roboto:wght@300;400;500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+}
+
+.container .left-container{
+    height: 100vh;
+    max-width: 600px;
+}
+
+.container .left-container img{
+    height: 100%;
+    width: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 600px;
+    height: 12vh;
+    padding: 30px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20%;
+}
+
+.logo h1{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 400;
+    color: #ffffff; 
+    font-family: 'Grand Hotel', cursive;
+}
+
+i{
+    color: #ffffff;
+    width: 20px;
+}
+
+.author-img{
+    position: absolute;
+    padding: 30px;
+    margin: 0 130px;
+    margin-top: 400px;
+    margin-bottom: 0px;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.author-img a{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.right-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 50px;
+    flex-direction: column;
+    background:  #F5F5F5;
+}
+
+.right-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.right-container h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    padding: 0 40px;
+}
+
+.right-container p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    padding: 0 40px;
+    margin-top: 1px;
+}
+
+.right-container span{
+    font-size: 30px;
+    line-height: 26px;
+    font-family: 'Grand Hotel', cursive;
+    color: #000000;
+    margin: 0 2px;
+}
+
+form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+form h2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+.form-container{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 40px;
+    gap: px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-container div label{
+    display: block;
+    margin-top: 1px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.form-container input{
+    margin: 10px 0;
+    margin-bottom: 10px;
+    padding: 5px 30px;
+}
+
+.inputs input{
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.inputs input:focus{
+    border-color: #4EA0FF;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+button{
+    padding: 15px 15px;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0 40px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    background: #4EA0FF;
+}
+
+.login {
+    color: #000000;
+    font-size: 8px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #4EA0FF;
+}
